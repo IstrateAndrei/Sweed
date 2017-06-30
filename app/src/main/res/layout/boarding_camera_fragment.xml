@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cameraPermissionColor"
+    >
+
+    <ImageView
+        android:id="@+id/camera_permission_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/camera_splash"/>
+
+    <com.innovattic.font.FontTextView
+        android:id="@+id/camera_permission_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="@string/camera_permission_title"
+        android:layout_below="@+id/camera_permission_icon"/>
+
+    <com.innovattic.font.FontTextView
+        android:id="@+id/camera_permission_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/camera_permission_message"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/camera_permission_title" />
+
+    <Button
+        android:id="@+id/camera_button_agree_permissions"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/agree_to_permission"
+        android:layout_above="@+id/camera_button_deny_permission"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:minHeight="35dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/camera_button_deny_permission"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:minHeight="35dp"
+        android:background="@android:color/transparent"
+        android:text="@string/camera_permission_deny"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>

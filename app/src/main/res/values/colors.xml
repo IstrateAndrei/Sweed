@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FB6722</color>
+    <color name="colorAccent">#FE5128</color>
+    <color name="colorPrimaryDarkGray">#3F3F3F</color>
+    <color name="locationPermissionColor">#09c9de</color>
+    <color name="cameraPermissionColor">#d9aa55</color>
+    <color name="facebookColor">#3B5998</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

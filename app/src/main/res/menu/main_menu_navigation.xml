@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/events_outline"
+            android:title="@string/event_realm_string"
+            android:checkable="true"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/camera"
+            android:icon="@drawable/camera_outline"
+            android:title="@string/camera_string"
+            android:checkable="true"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile_outline"
+            android:title="@string/my_profile_string"
+            android:checkable="true"
+            app:showAsAction="always" />
+    </group>
+</menu>

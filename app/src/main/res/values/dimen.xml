@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="weight">0dp</dimen>
+    <dimen name="dimension_2">2dp</dimen>
+    <dimen name="dimension_3">3dp</dimen>
+    <dimen name="dimension_4">4dp</dimen>
+    <dimen name="dimension_5">5dp</dimen>
+    <dimen name="dimension_10">10dp</dimen>
+    <dimen name="dimension_15">15dp</dimen>
+    <dimen name="dimension_20">20dp</dimen>
+    <dimen name="dimension_25">25dp</dimen>
+    <dimen name="dimension_30">30dp</dimen>
+    <dimen name="dimension_35">35dp</dimen>
+    <dimen name="dimension_40">40dp</dimen>
+    <dimen name="dimension_45">45dp</dimen>
+    <dimen name="dimension_50">50dp</dimen>
+    <dimen name="dimension_55">55dp</dimen>
+</resources>
